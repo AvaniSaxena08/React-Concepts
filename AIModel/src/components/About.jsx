@@ -3,16 +3,17 @@ import Navbar from "./Navbar";
 function About() {
   return (<div>
     
-    <div className="bg-gray-50 min-h-screen  text-gray-800">
-    <header className="bg-teal-700 text-white py-5 text-center">
+    <div className="bg-gray-200 min-h-screen mt-[400px] text-gray-800">
+    <header className="bg-teal-800 mt-[50px]  w-full text-white py-3 text-center">
         <h1 className="text-4xl font-extrabold">About Us</h1>
        
       </header>
-      {/* Header Section */}
-      <header className="bg-teal-600 text-white py-10  text-center">
+      {/* Header Section 
+      <header className="bg-teal-600 mt-10 w-full max-w-[1400px] ml-[50px] text-white py-5  text-center">
         <h1 className="text-4xl font-extrabold">WellNess AI</h1>
         <p className="mt-4 text-lg">Predicting Future Diseases & Offering Personalized Recommendations</p>
       </header>
+      */}
 
       {/* Main Content Section */}
       <section className="px-11 mb-4 py-10 max-w-7xl mx-auto space-y-12">
@@ -63,7 +64,7 @@ function About() {
             </div>
           </div>
         </div>
-
+          
         {/* Benefits Section */}
         <div className="bg-teal-50 py-16 text-center">
           <h2 className="text-3xl font-semibold text-teal-600">Why Choose This WellNess AI</h2>
@@ -103,10 +104,7 @@ function About() {
 
       </section>
 
-      {/* Footer Section */}
-      <footer className="bg-teal-600 text-white py-8 text-center">
-        <p>© 2025 AI Predictive Health Model | All Rights Reserved</p>
-      </footer>
+     
     </div>
     </div>
   );

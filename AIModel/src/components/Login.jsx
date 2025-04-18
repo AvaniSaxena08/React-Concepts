@@ -10,12 +10,12 @@ const Login = () => {
     e.preventDefault();
     console.log("Email:", email, "Password:", password);
   };
-
+  
   return (
     
     <div className=" bg-gray-100 items-center flex min-h-screen bg-center bg-no-repeat ">
     <form onSubmit={handleSubmit} className="  bg-white p-6 rounded-lg shadow-lg w-[500px] h-[600px] items-center ml-[500px]  "> 
-      <h2 className="mb-5 text-center  text-3xl font-semibold text-gray-600">Login</h2>
+      <h2 className="mt-10 text-center  text-3xl font-bold text-gray-800">Login</h2>
       <div className="mb-4">
         <label htmlFor="email" className="block text-base mt-11 font-medium text-gray-500">Email:</label>
         <input
@@ -38,12 +38,9 @@ const Login = () => {
           required
         />
       </div>
-      <button type="submit" className=" px-36 ml-12 py-3 bg-teal-700 text-white rounded-lg hover:bg-teal-900 transition mt-11">
+      <button type="submit" className=" px-36 ml-16 py-3 bg-teal-700 text-white rounded-lg hover:bg-teal-900 transition mt-11" >
         Login
       </button>
-      <div className="ml-40 mt-4"> 
-        Forgot password ?
-      </div>
       <div className="w-full mt-3 p-3 text-xl font-medium text-slate-800 text-center flex items-center justify-center gap-1">
         <h1>Don`t have account ? </h1>
         <Link to="/register" className="text-teal-700 font-bold">
